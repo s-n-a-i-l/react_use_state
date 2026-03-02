@@ -1,0 +1,20 @@
+.restart
+{
+    display: flex;
+    justify-content: center;
+}
+
+.restart-button
+{
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 30%;
+    height: 40px;
+    color: #cbffda;
+    box-shadow: 0px 0px 10px 6px gray;
+
+    transition: transform 0.2s ease-in-out;
+}
+.restart-button:hover
+{
+    transform: scale(1.3);
+}

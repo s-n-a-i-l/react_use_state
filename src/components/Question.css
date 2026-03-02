@@ -1,0 +1,29 @@
+.question h3
+{
+   margin: auto 20%;
+   /* color: #a2fc89;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.5) ; */
+}
+.question > ul
+{
+   list-style: none;
+   margin: 0px;
+   padding-inline-start: 0;
+}
+
+.question  li
+{
+   box-shadow: 0px 0px 4px 1px gray;
+   margin: 20px 0 ; 
+   border-radius: 10px;
+   padding: 6px;
+   cursor: pointer;
+   text-align: center;
+   background-color:rgba(0, 0, 0, 0.75);
+   border: solid 1px;
+   border-color:#000000 ;
+   font-size: 20px;
+   font-style: italic;
+   /* color: #a2fc89;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.5) ; */
+}
