@@ -70,10 +70,10 @@ function shuffleArray(array) {
 }
 
 function shuffleAllQuestions(baseQuestions) {
-  // 1) перемешиваем порядок вопросов
+ 
   const shuffled = shuffleArray(baseQuestions);
 
-  // 2) для каждого вопроса перемешиваем варианты ответов
+  
   return shuffled.map((question) => {
     const variants = [...question.variants];
     const correctIndex = question.correct;
@@ -113,8 +113,8 @@ function App() {
 
   const onRestart = () => {
    setShuffledQuestions(shuffleAllQuestions(questions));
-    setStep(0);      //обнуляем
-    setCorrect(0);   //обнуляем
+    setStep(0);      
+    setCorrect(0);   
   };
 
   return (
